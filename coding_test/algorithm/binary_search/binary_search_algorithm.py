@@ -3,6 +3,7 @@ import bisect
 input = sys.stdin.readline
 
 
+#
 def binary_search(array, target, start, end):
     if start > end:
         return None
